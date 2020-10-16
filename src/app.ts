@@ -70,13 +70,14 @@ const main = async () => {
                             case 1:
                                 console.log('Perimetro del triangulo............')
                 
-                                let base2, ladoa2, ladob2: number
+                                let base2, altura2, ladoa2, ladob2: number
                 
                                 base2 =  parseInt( await leerTeclado('Base del triángulo:'))
+                                altura2 =  parseInt( await leerTeclado('Altura del triángulo:'))
                                 ladoa2 =  parseInt( await leerTeclado('Lado A del triángulo:'))
                                 ladob2 =  parseInt( await leerTeclado('Lado B del triángulo:'))
                 
-                                let triangulo2 = new Triangulo(base2,ladoa2,ladob2)
+                                let triangulo2 = new Triangulo(base2,altura2,ladoa2,ladob2)
                 
                                 console.log("Perímetro del triángulo="+triangulo2.perimetro())
                                 
