@@ -22,8 +22,8 @@ const main = async () => {
                 
                 let triangulo = new Triangulo(base,altura,ladoa,ladob)
                 
-                console.log("Perímetro del triángulo="+triangulo.getPerimetro())
-                console.log("Área del triángulo="+triangulo.getArea())
+                console.log("Perímetro del triángulo="+triangulo.perimetro())
+                console.log("Área del triángulo="+triangulo.area())
                 break
             case 2:
                 console.log('Perimetro y Area del cuadrado..........')
@@ -34,8 +34,8 @@ const main = async () => {
                 
                 let cuadrado = new Cuadrado(lado)
                 
-                console.log("Perímetro del cuadrado="+cuadrado.getPerimetro())
-                console.log("Área del cuadrado="+cuadrado.getArea())
+                console.log("Perímetro del cuadrado="+cuadrado.perimetro())
+                console.log("Área del cuadrado="+cuadrado.area())
                 break
             case 3:
                 console.log('Perimetro y Area del rectangulo............')
@@ -47,8 +47,8 @@ const main = async () => {
                 
                 let rectangulo = new Rectangulo(baserectangulo,alturarectangulo)
                 
-                console.log("Perímetro del rectángulo="+ rectangulo.getPerimetro())
-                console.log("Área del rectángulo="+ rectangulo.getArea())
+                console.log("Perímetro del rectángulo="+ rectangulo.perimetro())
+                console.log("Área del rectángulo="+ rectangulo.area())
                 break
             case 4:
                 console.log('Perimetro y Area de un circulo...........')
@@ -59,8 +59,8 @@ const main = async () => {
                 
                 let circulo = new Circulo(radio)
                 
-                console.log("Perímetro del círculo="+circulo.getPerimetro())
-                console.log("Área del círculo="+circulo.getArea())
+                console.log("Perímetro del círculo="+circulo.perimetro())
+                console.log("Área del círculo="+circulo.area())
                 break
             case 0:
                 console.log('\nGracias por su participación')
